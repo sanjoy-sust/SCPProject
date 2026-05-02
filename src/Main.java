@@ -1,9 +1,12 @@
 import com.offCard.Terminal;
 
-public class Main {
+public final class Main {
 
-	public static void main(String[] args) {
-		Terminal.rootTask();
-	}
-    //1027
+    private Main() {
+        // Utility class.
+    }
+
+    public static void main(String[] args) {
+        Terminal.rootTask();
+    }
 }
